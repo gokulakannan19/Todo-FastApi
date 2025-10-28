@@ -1,0 +1,116 @@
+# Python & FastAPI .gitignore
+# See: https://docs.github.com/en/get-started/using-git/ignoring-files
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+__pypackages__/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+venv/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Type check/cache
+.mypy_cache/
+typings/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+
+# FastAPI / Uvicorn
+# Local sqlite files (often used for local development)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Docker / envrc
+.envrc
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints
+
+# Sphinx
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Ignore build artifacts from packaging
+dist/
+build/
+*.egg-info/
